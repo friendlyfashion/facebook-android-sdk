@@ -1,7 +1,8 @@
 apply plugin: 'android-library'
 
 dependencies {
-    compile 'com.android.support:support-v4:13.0.+'
+    compile 'com.google.android.annotations:annotations:21.1'
+    compile 'android.support:compatibility-v13:18'
 }
 
 android {
@@ -9,7 +10,7 @@ android {
     buildToolsVersion "19"
 
     defaultConfig {
-        minSdkVersion 8
+        minSdkVersion 14
         targetSdkVersion 19
     }
 
