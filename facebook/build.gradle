@@ -2,7 +2,7 @@ apply plugin: 'android-library'
 
 dependencies {
     compile 'com.google.android.annotations:annotations:21.1'
-    compile 'android.support:compatibility-v13:18'
+    compile 'com.android.support:support-v13:19.0.+'
 }
 
 android {
