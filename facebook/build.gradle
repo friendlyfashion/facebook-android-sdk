@@ -1,8 +1,13 @@
-apply plugin: 'android-library'
+apply plugin: 'com.android.library'
+
+repositories {
+    mavenCentral()
+}
 
 dependencies {
+    compile 'com.parse.bolts:bolts-android:1.1.1'
     compile 'com.android.support:support-v13:19.0.+'
-    compile files('libs/bolts.jar', 'libs/AudienceNetwork.jar')
+    compile files('libs/AudienceNetwork.jar')
 }
 
 android {
